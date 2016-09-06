@@ -1,0 +1,87 @@
+.main 	{
+	border-top: thick solid black;
+    border-bottom: thick solid black;
+    padding: 10px;
+    margin: 50px 200px 50px 200px;
+    font-size: 18px;
+    color: #000033;
+   
+    font-family: 'Poiret One';
+    font-weight: bold;
+    position: relative; 
+}
+
+a:hover {
+    font-style: oblique;
+}
+
+.header	{
+	padding: 10px;
+	text-align: center;
+
+}
+
+/*.title  {
+    position: fixed; 
+    .fix-title & {
+    background: #eee;
+  }
+} */
+
+
+
+.contentWords	{
+	width: 500px;
+    display: inline-block;
+	margin: 0px 0px 0px 20px;
+
+}
+
+
+
+.line	{
+	margin: 0px 20px 0px -10px;
+}
+
+.line1	{
+	margin: 0px 20px 0px 0px;
+}
+
+.link	{
+	text-align: center;
+	margin: 5px 0px 0px 0px;
+	
+}
+
+.picture    {
+    display: inline-block;
+
+}
+
+.resize {
+    width: 210px;
+    height: auto;
+    margin: 10px 0px 0px 12px;
+    padding-left: 30px;
+}
+
+
+.displayed {
+    display: block;
+    margin-left: -5px;
+    margin-right: auto; }
+
+.Experience	{
+	margin-left: 20px;
+}
+
+
+.Portfolio  {
+    font-color: yellow;
+
+}
+
+.aboutMe    {
+    font-style: oblique;
+
+}
