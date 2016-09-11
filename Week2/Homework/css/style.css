@@ -47,11 +47,9 @@ Developer @GA in NYC
 
 body {
      color: #000;
-     font-size: 12px;
+     font-size: 24px;
      line-height: 1.4;
-     font-family: "Open Sans";
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: Helvetica, Arial, sans-serif;
 }
 
 
@@ -60,143 +58,149 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+#main {
   width: 100%;
   margin: auto;
   height: 500px;
 
 }
 
-header {
-  padding: 50px;
 
-}
-
-.benefits {
-  padding: 50px;
-}
-
-.quote  {
-  padding: 50px;
-}
-
-
-button  {
-  background-color: #f9e42e;
-  color: #033048;
-  border-radius: 5px;
-}
-
-.button{
-  background-color: #f9e42e;
-  text-align: center;
-}
-
-.signUp {
-  color: #f0efef;
-  font-size: 12px;
-  border-radius: 5px
-  font-weight: bold;
-  background-color: #033048;
-  margin: 10px;
-}
-
-header div  {
-  text-align: center;
-}
-
-header div button {
-  font-weight: bold;
-  font-size: 14px;
-  border-radius: 5px;
-}
-
-h1  {
-  text-align: center;
-  font-weight: bold;
-  font-size: 24px;
-}
-
-header h1 {
-  text-align: left;
-  color: #f0efef;
-}
-
-.benefits h1 {
-  text-align: left;
-  color: #033048;
-}
-
-p   {
-  color: #606161;
-}
-
-.quote p  {
-  text-align: center;
-  font-weight: lighter;
-  font-size: 18px;
-  font-style: italic;
-}
-
-li  {
-  color: #606161;
-  padding-left: 20px;
-  font-weight: lighter;
-  font-size: 13px;
-}
-
-strong  {
-  color: #f0efef;
-}
-
-.benefits {
-  background: #f0efef;
-}
-
-
-
-h2  {
-  font-family: "Open Sans Semibold";
-  font-size: 24px;
-  text-align: center;
-  color: #f0efef;
-}
-
-footer {
-  background: #121212;
-  padding: 50px;
-
-}
-
-footer h1 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 24px;
-  color: #f9e42e;
-}
-
-h2  {
-  font-family: "Open Sans Semibold";
-}
-
-img   {
-  text-align: center;
-}
-
-
-strong  {
-  font-family: "Open Sans Semibold";
-  font-size: 18px;
-}
-
-footer p  {
-  font-size: 9px;
-  font-family: "Open Sans Semibold";
-  text-align: center;
-}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.container  {
+  font-family: 'Open Sans';
+}
+
+.relaxr {
+  padding: 0px 100px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  color: #f0efef;
+}
+
+.relaxr h1  {
+  font-weight: extrabold;
+}
+
+.relaxr h2  {
+  text-align: center;
+  font-weight: semibold;
+
+}
+
+#getItNow {
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  color: #033048;
+}
+
+.benefits {
+  background-color: #f0efef;
+  padding: 0px 100px;
+}
+
+.benefits h1  {
+  font-weight: 600;
+  font-size: 20px;
+  color: #033048;
+}
+
+.text  {
+  font-weight: 200;
+  font-size: 13px;
+  color: #606161;
+}
+
+.list {
+  padding-left: 10px;
+}
+
+.quote  {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  padding: 0px 100px;
+  color: #f0efef;
+  text-align: center;
+  font-size: 18px;
+}
+
+.quote > p {
+  font-style: italic;
+  color: #606161;
+  font-weight: 200;
+}
+
+.quote > strong {
+  font-weight: 600;
+}
+
+.yellow {
+  background: #f9e42e
+}
+
+#signUpNow {
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #033048;
+  color: #f0efef;
+  margin-bottom: 10px;
+}
+
+footer  {
+  text-align: center;
+  background: #121212;
+}
+
+footer h1 {
+  font-weight: 800;
+  color: #f9e42e;
+}
+
+img {
+  padding-right: 5px;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 9px;
+  color: #f0efef;
+}
+
+button  {
+  padding: 3px 20px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

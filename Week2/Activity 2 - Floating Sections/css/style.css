@@ -1,0 +1,36 @@
+
+/* Some styles */
+
+body { font-size: 16px; padding: 25px 10%; background-color: #ccc; font-family: "Open Sans", Arial, sans-serif; }
+#container { border: 1px solid #ddd; padding: 40px; background-color: #fff; }
+h1 { margin-top: 0; }
+.hidden { display: none; }
+.caption { font-style: italic; color: #888;font-size: 12px; text-align: right;}
+
+
+/* Your styles below this line */
+
+header {
+	background-color: gray;
+}
+
+/* This is a new type of selector that combines ELEMENT and ID. Note there is no space.
+It's just a way of being more specific. This targets only <section> with ID of "content-main" 
+So this would not target a plain <section> without an ID, nor would it target <div id="content-main"> 
+It ONLY targets <section id="content-main"> */
+section#content-main {
+	background-color: red;
+	color: white;
+	float: right;
+	width: 50%;
+}
+
+aside#content-secondary {
+	background-color: yellow;
+	float: left;
+	width: 30%;
+}
+
+footer {
+	clear: both;
+}

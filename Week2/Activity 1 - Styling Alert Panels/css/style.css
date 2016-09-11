@@ -1,0 +1,29 @@
+
+/* Some styles */
+
+body { font-size: 16px; padding: 25px 10%; background-color: #ccc; font-family: "Open Sans", Arial, sans-serif; }
+#container { border: 1px solid #ddd; padding: 40px; background-color: #fff; }
+h1 { margin-top: 0; }
+
+
+/* Your styles below this line */
+
+.alert {
+	background-color: green;
+	font-family: helvetica;
+	border: 3px solid black;
+	width: 30%;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.danger {
+	background-color: red;
+}
+
+.info:hover	{
+	background-color: green;
+}
