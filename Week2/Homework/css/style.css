@@ -121,7 +121,7 @@ body {
 }
 
 .quote  {
-  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background: url(../images/testimonial_bg.jpg);
   padding: 0px 100px;
   color: #f0efef;
   text-align: center;
