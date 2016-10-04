@@ -1,0 +1,221 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; 
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; 
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+    height: 100%; 
+}
+
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: purple;
+  height: 100%; 
+}
+
+/******************************************
+/* Court LAYOUT
+/*******************************************/
+
+.whole-court	{
+	margin: auto;
+	width: 50%;
+	height: 100%; 
+}
+
+
+.court-decor	{
+
+	background-color: green;
+	border-style: solid;
+	border-color: white;
+
+}
+
+.doubles	{
+	width: 12.5%;
+	height: 50%;
+	float:left;
+}
+
+
+
+.base-line	{
+	width: 75%;
+	height: 50%;
+	float:left;
+
+}
+
+.base-line-btm	{
+	width: 100%;
+	height: 46%;
+}
+
+
+
+.base-line-top	{
+	width: 100%;
+	height: 54%;
+	
+
+}
+
+
+.top-deuce	{
+	width: 50%;
+	height: 100%;
+	float:left;
+
+}
+
+
+.top-ad	{
+	width: 50%;
+	height: 100%;
+	float:left;
+}
+
+
+
+
+.top-thick	{
+	border-top-width: 2px;
+
+}
+
+.top-thin	{
+	border-top-width: 1px;
+
+}
+
+.btm-thick	{
+	border-bottom-width: 2px;
+
+}
+
+.btm-thin	{
+	border-bottom-width: 1px;
+
+
+}
+
+.left-thick	{
+	border-left-width: 2px;
+
+}
+
+.left-thin	{
+	border-left-width: 1px;
+
+}
+
+.right-thick	{
+	border-right-width: 2px;
+
+}
+
+.right-thin	{
+	border-right-width: 1px;
+
+}
+
+
+
+/******************************************
+/* Inside Court LAYOUT
+/*******************************************/
+
+
+p	{
+	text-align: center;
+	font-size: 26px;
+	color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

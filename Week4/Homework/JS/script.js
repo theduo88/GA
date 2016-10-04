@@ -4,38 +4,38 @@ $(function() {
 
 
 
-	$( ".readmore" ).click(function(event) {
-	  $( "#show-this-on-click" ).show( "slow", function() {
+	$( ".readmore" ).click(function(e) {
+	  $( "#show-this-on-click" ).slideDown( "slow", function() {
 	  });
 	  $( ".readless" ).show( "slow", function() {
 	  });
 
 	  $( ".readmore" ).hide();
 
-	  event.preventDefault();
+	  e.preventDefault();
 	});
 
 
 
-	$( ".readless" ).click(function(event) {
-	  $( "#show-this-on-click" ).hide( "slow", function() {
+	$( ".readless" ).click(function(e) {
+	  $( "#show-this-on-click" ).slideUp( "slow", function() {
 	  });
 	  $( ".readless" ).hide( "slow", function() {
 	  });
 	  $( ".readmore" ).show( "slow", function() {
 	  });
-	  event.preventDefault();
+	  e.preventDefault();
 	});
 
 
 
-	$( ".learnmore" ).click(function(event) {
-	  $( "#learnmoretext" ).show( "slow", function() {
+	$( ".learnmore" ).click(function(e) {
+	  $( "#learnmoretext" ).slideDown( "slow", function() {
 	  });
 
 	  $( ".learnmore" ).hide();
 
-	  event.preventDefault();
+	  e.preventDefault();
 	});
 
 
