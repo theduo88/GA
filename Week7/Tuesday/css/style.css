@@ -1,0 +1,99 @@
+html {
+    height: 100%; 
+}
+
+
+body {	
+	height: 100%; 
+	background-color: grey;
+}
+
+
+.header	{
+	/*background-color: blue;*/
+	border-style: solid;
+	border-color: black;
+	margin: 2px;
+}
+
+.top-1	{
+	background-color:#faebd7;
+	border-style: solid;
+	border-color: black;
+	margin: 2px;
+	height: 25%;
+}
+
+.testimonial	{
+	background-color: green;
+	border-style: solid;
+	border-color: black;
+	margin: 2px;
+	height: 35%;
+}
+
+
+#t1 {
+	height: 46%;
+	border-style: solid;
+	border-color: black;
+	margin: 2px;
+	width: 98%;
+
+}
+
+.bottom	{
+	background-color: blue;
+	border-style: solid;
+	border-color: black;
+	margin: 2px;
+	height: 40%;
+}
+
+#b1	{
+	height: 29.5%;
+	border-style: solid;
+	border-color: black;
+	margin: 2px;
+
+}
+
+@media (min-width: 580px)	{
+
+	button	{
+		visibility: hidden;
+	}
+
+	#t1	{
+		width: 47.5%;
+		display: inline-block;
+		height: 96%;
+	}
+
+
+	#b1	{
+		width: 30%;
+		display: inline-block;
+		height: 96%;
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
