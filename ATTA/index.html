@@ -4,7 +4,12 @@
 
 	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="css/jquery-ui.css">
+  	<script src="js/jquery-ui.js"></script>
+  	<script src="js/placeholdem.min.js"></script>
 	<script src="js/script.js"></script>
 
 	<title>ATTA</title>
@@ -12,75 +17,36 @@
 
 
 <body>
-	<div class="whole-court">
-		<div class="doubles court-decor top-thick right-thin btm-thin left-thick">
-		
-		</div>
 
-		<div class="base-line">
-
-			<div class="base-line-btm court-decor top-thick right-think btm-thin left-think">
-
-				<p>Singles Ladder Reporting</p>
-
-				
-			</div>
-
-			<div class="base-line-top top-thin right-thin btm-thin left-thin">
-
-				<div class="top-deuce court-decor right-thin">
-
-					<md-input-container class="md-block" flex-gt-sm="">
-						<label>First name</label>
-						<input ng-model="user.firstName">
-					</md-input-container>
-
-				</div>
-
-				<div class="top-ad court-decor left-thin">
-					
-				</div>
-
-			</div>
-		</div>
-
-		<div class="doubles court-decor top-thick right-thick btm-thin left-thin">
-
-		</div>
-
-		<div class="doubles court-decor top-thin right-thin btm-thick left-thick">
-		
-		</div>
-
-		<div class="base-line">
-
-
-			<div class="base-line-top top-thin right-thin btm-thin left-thin">
-
-				<div class="top-deuce court-decor right-thin">
-					
-				</div>
-
-				<div class="top-ad court-decor left-thin">
-					
-				</div>
-
-			</div>
-
-			<div class="base-line-btm court-decor top-thin right-thick btm-thick left-thick">
-				
-			</div>
-		</div>
-
-		<div class="doubles court-decor top-thin right-thick btm-thick left-thin">
-
-		</div>
-
-		
+	<!-- Autocomplete -->
+	<h2 >Autocomplete</h2>
+	<div>
+		<input id="autocomplete" type="text" placeholder="Name">
+		<input id="autocomplete2" type="text" placeholder="Name" >
 	</div>
 
-	
-	
+	<!-- Datepicker -->
+	<h2 class="datepicker">Datepicker</h2>
+	<div id="datepicker"></div>
+
+	<h2 class="comment">Comment</h2>
+
+	<div id="comment">
+		<input type="text" placeholder="Comment">
+		jhj
+	</div>
+
+
+	<!-- Checkboxradio -->
+	<h2 class="demoHeaders">Was this Match Played and Completed?</h2>
+	<form style="margin-top: 1em;">
+		<div id="radioset">
+			<input type="radio" id="radio1" name="radio"><label for="radio1">Yes</label>
+			<input type="radio" id="radio2" name="radio" checked="checked"><label for="radio2">No, this match was won by DEFAULT</label>
+			<input type="radio" id="radio3" name="radio"><label for="radio3">No, this match was won after a player RETIRED</label>
+			<input type="radio" id="radio4" name="radio"><label for="radio4">No, this match was not completed for some other reason</label>
+		</div>
+	</form>
 
 </body>
 
