@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>ATTA</title>
+
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    <script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/south-street/jquery-ui.min.css" />
+
+
+
+    <script src="./js/bootstrap-datepicker.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/funkyradio.css">
+    <link rel="stylesheet" href="css/datepicker.css">
+
+    <script src="dist/js/bootstrap-checkbox.min.js" defer></script>
+    <script src="js/script.js"></script>
+    <!-- <script src="sp-node-mysql/app.js"></script> -->
+
+
+
+  </head>
+  <body>
+
+  <div class="container">
+
+    <div class="container">
+      <div class="masthead">
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About ATTA</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Socalize</a></li>
+            <li><a href="#">Compete</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <br>
+        </nav>
+      </div>
+      <div class="row">
+        <!-- top section -->
+        <div class="col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1 text-center fill side-line well"></div>
+        <div class="col-md-8 col-sm-8 col-xs-8 text-center fill well">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center fill singles-top">Singles Ladder Reporting</div>
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center fill singles-btm">
+              <div class="row">
+                
+                <div class="col-md-6 col-sm-6 col-xs-6 text-center service-line left">
+                  <div class="col-sm-12">
+                    <input class="form-control name tags player-one" type="text" id="formGroupInputLarge" placeholder="Name">
+
+
+
+
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-3 ">
+                    <input class="form-control set text-center" type="text" id="formGroupInputLarge" placeholder="set">
+                    <input class="form-control set text-center" type="text" id="formGroupInputLarge" placeholder="set">
+                    <input class="form-control set text-center" type="text" id="formGroupInputLarge"  placeholder="set">
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 text-center service-line right">
+                  <div class="col-sm-12">
+                    <input class="form-control name tags player-two" type="text" id="formGroupInputLarge" placeholder="Name">
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-3 ">
+                    <input class="form-control set text-center" type="text" id="formGroupInputLarge" placeholder="set">
+                    <input class="form-control set text-center" type="text" id="formGroupInputLarge" placeholder="set">
+                    <input class="form-control set text-center" type="text" id="formGroupInputLarge" placeholder="set">
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1 col-md-offset-right-1 col-sm-1 col-sm-offset-right-1 col-xs-1 col-xs-offset-right-1 text-center fill side-line well btn btn-info submit" type="button" data-toggle="modal" data-target="#myModal">
+          <!-- <a href="#" class="btn btn-primary">Apple</a> -->
+
+        </div>
+
+        <!-- bottom section -->
+        <div class="col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1 text-center fill side-line well"></div>
+        <div class="col-md-8 col-sm-8 col-xs-8 text-center fill well">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center fill singles-top"> 
+              <div class="col-md-6 col-sm-6 col-xs-6 text-center service-line left">  
+
+                <div class="input-group name">
+                <input type="text" class="form-control date-input" id="date-fld" />
+                  <label class="input-group-btn" for="date-fld">
+                      <span class="btn btn-default">
+                          <span class="glyphicon glyphicon-calendar"></span>
+                      </span>
+                  </label>
+      
+                </div>
+                  
+
+
+
+              </div>
+
+              <div class="col-md-6 col-sm-6 col-xs-6 text-center service-line right">
+                <textarea class="form-control comment" rows="5" placeholder="Comment"></textarea>
+              </div>
+
+
+
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 text-left fill singles-btm"> 
+
+              <div class="radio">
+                <label>
+                  <input type="radio" name="o2" value="" checked>
+                  <span class="cr"><i class="cr-icon glyphicon glyphicon-arrow-right"></i></span>
+                  Yes. [Enter the scores for each set above]
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="o2" value="">
+                  <span class="cr"><i class="cr-icon glyphicon glyphicon-arrow-right"></i></span>
+                  No, this match was won by DEFAULT
+                </label>
+              </div>
+
+              <div class="radio">
+                <label>
+                  <input type="radio" name="o2" value="">
+                  <span class="cr"><i class="cr-icon glyphicon glyphicon-arrow-right"></i></span>
+                  No, this match was won after a player RETIRED [Enter the number of games each player won before the player retired]
+                </label>
+              </div>
+
+              <div class="radio">
+                <label>
+                  <input type="radio" name="o2" value="">
+                  <span class="cr"><i class="cr-icon glyphicon glyphicon-arrow-right"></i></span>
+                  No, this match was not completed for some other reason. [Explain in the comments section above]
+                </label>
+              </div>
+
+              
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col-md-1 col-md-offset-right-1 col-sm-1 col-sm-offset-right-1 col-xs-1 col-xs-offset-right-1 text-center fill side-line well"></div>
+
+      </div>
+      
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Modal Header</h4>
+          </div>
+          <div class="modal-body">
+            
+
+
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>FULL NAME</th>
+                  <th>LEVEL</th>
+                  <th>EMAIL</th>
+                  <th>PHONE</th>
+                </tr>
+              </thead>
+
+              <tbody class="table">
+                  <!-- <tr data-toggle="collapse" data-target="#accordion" class="clickable players">
+                      <td>Some Stuff</td>
+                      <td>Some more stuff</td>
+                      <td>And some more</td>
+                  </tr> -->
+
+                   <!-- <tr data-toggle="collapse" data-target="#accordion" class="clickable players">
+                      <td>Some Stuff</td>
+                      <td>Some more stuff</td>
+                      <td>And some more</td>
+                  </tr> -->
+                  <tr>
+                      <td colspan="3">
+                          <div id="accordion" class="collapse">Hidden by default</div>
+                      </td>
+                  </tr>
+              </tbody>
+            </table>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
