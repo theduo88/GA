@@ -45,7 +45,7 @@ $(function () {
 			fullname.push(data[i].FIRST_NAME + ' ' + data[i].LAST_NAME );
 			// console.log(data[i].FIRST_NAME)
 			// alert(data[i].FIRST_NAME)
-			// $('.table').append('<tr data-toggle="collapse" data-target="#accordion" class="clickable players"><td>'+data[i].FIRST_NAME + ' ' + data[i].LAST_NAME +'</td> <td>'+data[i].LEVEL+'</td> <td>'+data[i].EMAIL+'</td> <td>'+data[i].PHONE+'</td></tr>');
+			 $('table').append('<tr data-toggle="collapse" data-target="#accordion" class="clickable players"><td>'+data[i].FIRST_NAME + ' ' + data[i].LAST_NAME +'</td> <td>'+data[i].LEVEL+'</td> <td>'+data[i].EMAIL+'</td> <td>'+data[i].PHONE+'</td></tr>');
 			
 
 		}
@@ -66,7 +66,7 @@ $(function () {
 
 
 
-	$('.table').append('<tr data-toggle="collapse" data-target="#accordion" class="clickable players"><td>'+firstName[0] + ' ' + lastName[0] +'</td> <td>'+level[0]+'</td> <td>'+email[0]+'</td> <td>'+phone[0]+'</td></tr>');
+	// $('.table').append('<tr data-toggle="collapse" data-target="#accordion" class="clickable players"><td>'+firstName[0] + ' ' + lastName[0] +'</td> <td>'+level[0]+'</td> <td>'+email[0]+'</td> <td>'+phone[0]+'</td></tr>');
 
 
 

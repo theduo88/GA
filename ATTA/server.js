@@ -23,6 +23,7 @@ app.get('/api/members', function(req, res) {
 	connection.end();
 });
 
+
 app.use('/', express.static('./static'))
 
 app.listen(3000);
